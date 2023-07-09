@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap');
 
-.todo{
-    width: 1000px;
-    margin: 0px auto; 
-    font-size: 20px;
-}
+
 
 *{
     margin :50 px;
@@ -19,6 +15,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 24;
+}
+.item{
+    width: 1000px;
+    margin: 0px auto; 
+    font-size: 20px;
 }
 .historia_0 {
     border: 2px solid;
