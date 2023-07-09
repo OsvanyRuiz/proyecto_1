@@ -1,0 +1,38 @@
+.historia_0 {
+    border-color: brown;
+    border: 0px solid;
+
+    width: 1000px;
+    margin: 0px auto;
+
+}
+
+para poner un borde hay que primero especificar que 
+queremos un borde "border: 2px solid", ya despues le 
+metemos estilo al borde 
+
+con padding podemos podemos ajustar el espacio que hay 
+entre el borde y el texto;
+
+body {
+    line-height: 1;
+
+    font-family: "Inter", sans-serif;
+
+    margin: 0px auto;
+    esto nos sirve para separar el body margin del header margin 
+    
+  }
+  border-top-color: nos ayuda para poner unicamente el borde superior 
+
+  
+  .item {
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+  
+    column-gap: 24px;
+    row-gap: 32px;
+  }
