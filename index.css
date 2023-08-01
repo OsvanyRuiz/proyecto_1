@@ -10,3 +10,33 @@ width: 1000px;
 margin: 0px auto;
 }
 
+.item{
+  width: 700px;
+  border: 2px solid black;
+  padding: 10px;
+ border-radius: 5px ;
+ height: 800px;;
+}
+.item img{
+width: 100%;
+object-fit:cover;
+object-position: initial;
+}
+
+.container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+}
+
+.historia_0{
+  display:grid;
+  grid-template-columns: 100px 1fr 20px;
+}
+
+.contenido_1{
+  grid-column-start:1 ;
+  grid-column-end: 4;
+}
